@@ -11,9 +11,14 @@
     "build:production": "npm run prestart && npm prune --production",
     "test": "echo \"No tests yet...\""
   },
-  "dependencies": {},
+  "dependencies": {
+    "dotenv": "^8.1.0",
+    "firebase": "^6.4.0",
+    "uuid": "^3.3.3"
+  },
   "devDependencies": {
     "@azure/functions": "^1.0.2-beta2",
+    "@types/dotenv": "^6.1.1",
     "typescript": "^3.3.3"
   }
 }
